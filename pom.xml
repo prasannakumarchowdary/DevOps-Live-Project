@@ -5,7 +5,7 @@
   <artifactId>shopping-site-web-app</artifactId>
   <packaging>war</packaging>
   <version>3.0-RELEASE</version>
-  <name>shopping-site-web-app</name>
+  <name>nareshit</name>
   <url>http://maven.apache.org</url>
  
   <dependencies>
