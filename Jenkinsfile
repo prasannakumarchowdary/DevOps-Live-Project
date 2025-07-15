@@ -3,14 +3,14 @@ pipeline {
 
     tools {
         // Install the Maven version configured as "M3" and add it to the path.
-        maven "maven396"
+        maven "maven 3.9.10"
     }
 
     stages {
         stage('Github') {
             steps {
                 // Get some code from a GitHub repository
-                git branch: 'main', url: 'https://github.com/madandevops2024/FedExProjectMar13.git'
+                git branch: 'main', url: 'https://github.com/prasannakumarchowdary/DevOps-Live-Project.git'
             }
         }
         
